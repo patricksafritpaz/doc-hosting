@@ -1,0 +1,126 @@
+@media screen and (min-width: 450px){
+	.content-table {
+		display: flex; display: -webkit-flex;
+		flex-flow: row wrap; 
+		-webkit-flex-flow: row wrap;
+		justify-content: space-between; 
+		-webkit-justify-content: space-between;
+		align-items: flex-start; 
+		-webkit-align-items: flex-start;
+		align-content: flex-start; 
+		-webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	.content-table:after {
+		content: "";
+		flex: 1 0 33.3%;
+		-webkit-flex: 1 0 33.3%;
+		margin-left: 45px;
+		align-self: stretch; -webkit-align-self: stretch;
+	}
+}
+@media screen and (max-width: 450px) {
+	.content-table {
+		display: flex; display: -webkit-flex;
+		flex-flow: column wrap; 
+		-webkit-flex-flow: column wrap;
+		justify-content: space-between; 
+		-webkit-justify-content: space-between;
+		align-items: flex-start; 
+		-webkit-align-items: flex-start;
+		align-content: flex-start; 
+		-webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	.content-table:after {
+		content: "";
+		flex: none;
+		-webkit-flex: none;
+	}
+}
+.content-table-cell {
+	flex: 2 0 33.3%;
+	-webkit-flex: 2 0 33.3%;
+	margin: 5px 6px;
+	border-radius: .3em;
+	user-select: none;
+	max-width: 310px;
+	box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
+				rgba(211,216,223,0.33) 0px 15px 20px -1px;
+}
+.content-table-cell div.figure {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.content-table-cell img {
+	border-top-left-radius: .3em;
+	border-top-right-radius: .3em;
+}
+
+.cell-header {
+	padding: 18px 15px 0px!important;
+}
+
+.cell-header p {
+	margin-bottom: 7px;
+}
+
+.cell-header p a {
+	display: block;
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+.cell-header p:last-of-type {
+	font-weight: bold;
+	color: #6e6e6e;
+}
+
+.cell-header p a span {
+	font-family: "PT Sans", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	font-style: normal;
+}
+
+
+/* It can be used for styling the `:doc:` directive (may be in the future). */
+
+/* .content-table-cell dl {
+    margin-bottom: 10px;
+}
+.content-table-cell dl dt > a {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.content-table-cell dl dt a em, .content-table-cell dl dt a span{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3em;
+}
+.content-table-cell dl dt{
+    padding: 18px 15px 0px!important;
+}
+.content-table-cell dd{
+	padding: 0px 15px;
+	font-style: normal;
+	margin: 0px;
+	color: #808080;
+	font-size: 90%;
+} */
+
+.red {
+	color: rgb(236, 65, 3);
+}
+
+.orange {
+	color: rgb(214, 147, 23);
+}
+
+.green {
+	color: green;
+}

@@ -1,0 +1,10 @@
+Title
+******
+
+Paragraphs contain text and may contain inline markup:
+*emphasis*, **strong emphasis**, `interpreted text`, ``inline
+literals``, standalone hyperlinks (https://www.python.org),
+external hyperlinks 
+
+
+.. image:: shortcut.gif
